@@ -1,0 +1,7 @@
+# General 
+pyvisa
+pynput
+
+# Dependencies for logging and plotting. 
+matplotlib
+pandas
