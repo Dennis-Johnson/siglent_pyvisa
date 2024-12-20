@@ -2,7 +2,7 @@
 
 A script to using the PyVISA package to log voltage/current values on a Siglent power supply. Saves a CSV file and plots. 
 
-![DC Power Supply](./assets/powersupply.jpg)
+<img src="./assets/powersupply.jpg" alt="DC Power Supply" width="400"/>
 
 ## Usage
 ```bash
@@ -14,14 +14,15 @@ python3 siglent_logger.py
 ## Find Resource String
 Once you connect over USB or Ethernet to the host PC, query your instrument's unique resource ID.
 
-"""python
+```python
 >>> import pyvisa
 >>> rm = pyvisa.ResourceManager()
 >>> rm.list_resources()
-"""
+```
 
 ## Output
 
 Example of a power plot you'd get. 
 
-![Power Plot](./assets/power_plot.png)
+<img src="./assets/power_plot.png" alt="Power Plot" width="400"/>
+
